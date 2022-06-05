@@ -1,0 +1,18 @@
+{
+  "name": "demo-bug-winston-elasticsearch",
+  "version": "0.0.1",
+  "description": "Demonstration of a bug with the occurrence of duplicate logs",
+  "private": true,
+  "main": "index.js",
+  "license": "ISC",
+  "engines": {
+    "node": "12.*"
+  },
+  "scripts": {
+    "start": "yarn && node ."
+  },
+  "dependencies": {
+    "winston": "3.7.2",
+    "winston-elasticsearch": "0.16.1"
+  }
+}
