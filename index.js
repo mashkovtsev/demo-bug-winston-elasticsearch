@@ -3,7 +3,7 @@ const { ElasticsearchTransport } = require('winston-elasticsearch');
 
 const esTransport = new ElasticsearchTransport({
   clientOpts: { node: 'http://localhost:9200' },
-  retryLimit: 3,
+  retryLimit: 3, // By increasing this parameter, we will get more duplicates.
 });
 
 const logger = createLogger({
