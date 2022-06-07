@@ -1,5 +1,9 @@
 # Demo winston-elasticsearch bug
 
+## Intro
+
+The problem of duplicating non-erroneous logs, when erroneous logs occur.
+
 ## Required versions
 
 - node.js: 12.*
